@@ -1,0 +1,20 @@
+# MSVC Windows builds of rustc generate these, which store debugging information
+*.pdb
+
+# IDE config files
+.idea/
+.vscode/
+
+# macOS files
+.DS_Store
+
+# build script generated files
+.build_info/
+
+# zig build files
+*.o
+
+# zig cache
+.zig-cache/
+zig-cache/
+zig-out/
